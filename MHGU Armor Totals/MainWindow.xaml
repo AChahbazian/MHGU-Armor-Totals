@@ -1,0 +1,16 @@
+﻿<Window x:Class="MHGU_Armor_Totals.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MHGU_Armor_Totals"
+        mc:Ignorable="d"
+        Title="Kiranico Armor Material Totals" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="txtURL" HorizontalAlignment="Left" Height="23" Margin="49,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="458"/>
+        <Label Content="URL:" HorizontalAlignment="Left" Margin="10,26,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnGetTotals" Content="Get Totals" HorizontalAlignment="Left" Margin="327,263,0,0" VerticalAlignment="Top" Width="133" Height="46" Click="btnGetTotals_Click"/>
+        <ListBox x:Name="lstMaterials" HorizontalAlignment="Left" Height="201" Margin="49,57,0,0" VerticalAlignment="Top" Width="458"/>
+
+    </Grid>
+</Window>
