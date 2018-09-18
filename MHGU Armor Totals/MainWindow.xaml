@@ -10,7 +10,7 @@
         <TextBox x:Name="txtURL" HorizontalAlignment="Left" Height="23" Margin="49,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="458"/>
         <Label Content="URL:" HorizontalAlignment="Left" Margin="10,26,0,0" VerticalAlignment="Top"/>
         <Button x:Name="btnGetTotals" Content="Get Totals" HorizontalAlignment="Left" Margin="327,263,0,0" VerticalAlignment="Top" Width="133" Height="46" Click="btnGetTotals_Click"/>
-        <ListBox x:Name="lstMaterials" HorizontalAlignment="Left" Height="201" Margin="49,57,0,0" VerticalAlignment="Top" Width="458"/>
+        <ListBox x:Name="lstMaterials" HorizontalAlignment="Left" Height="201" Margin="10,57,0,0" VerticalAlignment="Top" Width="497"/>
 
     </Grid>
 </Window>
